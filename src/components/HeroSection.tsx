@@ -24,7 +24,7 @@ export default function HeroSection() {
     }, []);
 
     return (
-        <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-white via-orange-50/30 to-yellow-50/50">
+        <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-white via-orange-50/30 to-yellow-50/50 pt-24 md:pt-0">
             {/* Background decoration */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute top-20 right-0 w-[600px] h-[600px] bg-gradient-to-br from-orange-100/40 to-yellow-100/40 rounded-full blur-3xl" />
@@ -32,7 +32,7 @@ export default function HeroSection() {
             </div>
 
             <div className="container-luxury relative z-10">
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div className="grid lg:grid-cols-2 gap-8 lg:gap-20 items-center py-8 md:py-0">
                     {/* Left Content */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
@@ -42,26 +42,26 @@ export default function HeroSection() {
                         <p className="text-sm font-medium text-orange-600 uppercase tracking-[0.2em] mb-4">
                             Snacks Premium Saludables
                         </p>
-                        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight mb-6">
+                        <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-gray-900 leading-tight mb-4 md:mb-6">
                             El peso del sabor,{" "}
                             <span className="italic text-orange-600">sin la gravedad.</span>
                         </h1>
-                        <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
+                        <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8 max-w-lg leading-relaxed">
                             Descubre una nueva dimensión de snacks saludables.
                             Crujientes, ligeros y libres de culpa. Inflados al vapor, sin freír.
                         </p>
 
                         {/* CTA Buttons */}
-                        <div className="flex flex-wrap gap-4 mb-12">
+                        <div className="flex flex-wrap gap-3 md:gap-4 mb-8 md:mb-12">
                             <Link
                                 href="/productos"
-                                className="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition-colors"
+                                className="inline-flex items-center gap-2 bg-gray-900 text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-medium hover:bg-gray-800 transition-colors text-sm md:text-base"
                             >
                                 Comprar Ahora
                             </Link>
                             <Link
                                 href="#categorias"
-                                className="inline-flex items-center gap-2 text-gray-700 px-8 py-4 rounded-full font-medium hover:bg-gray-100 transition-colors"
+                                className="inline-flex items-center gap-2 text-gray-700 px-6 py-3 md:px-8 md:py-4 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm md:text-base"
                             >
                                 Conoce más
                                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -71,17 +71,17 @@ export default function HeroSection() {
                         </div>
 
                         {/* Stats */}
-                        <div className="flex gap-8 md:gap-12">
+                        <div className="flex gap-6 md:gap-12">
                             <div className="text-center">
-                                <p className="text-3xl font-bold text-gray-900">0g</p>
+                                <p className="text-2xl md:text-3xl font-bold text-gray-900">0g</p>
                                 <p className="text-xs text-gray-500 uppercase tracking-wider">Grasas Trans</p>
                             </div>
                             <div className="text-center">
-                                <p className="text-3xl font-bold text-gray-900">105</p>
+                                <p className="text-2xl md:text-3xl font-bold text-gray-900">105</p>
                                 <p className="text-xs text-gray-500 uppercase tracking-wider">Kcal/porción</p>
                             </div>
                             <div className="text-center">
-                                <p className="text-3xl font-bold text-gray-900">100%</p>
+                                <p className="text-2xl md:text-3xl font-bold text-gray-900">100%</p>
                                 <p className="text-xs text-gray-500 uppercase tracking-wider">Natural</p>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ export default function HeroSection() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="relative"
                     >
-                        <div className="relative w-full aspect-square max-w-lg mx-auto">
+                        <div className="relative w-full aspect-square max-w-xs md:max-w-lg mx-auto">
                             {/* Rotating product images */}
                             <AnimatePresence mode="wait">
                                 <motion.div
@@ -130,8 +130,8 @@ export default function HeroSection() {
                                         key={index}
                                         onClick={() => setCurrentIndex(index)}
                                         className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
-                                                ? "bg-orange-500 w-6"
-                                                : "bg-gray-300 hover:bg-gray-400"
+                                            ? "bg-orange-500 w-6"
+                                            : "bg-gray-300 hover:bg-gray-400"
                                             }`}
                                     />
                                 ))}
