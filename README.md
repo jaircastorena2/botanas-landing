@@ -1,27 +1,23 @@
-# 🌽 Botanas Landing - Landing Page Profesional
+# Botanas Landing
 
-Una landing page moderna y atractiva para una empresa mayorista de botanas mexicanas, desarrollada con Next.js 16 y las últimas tecnologías web.
+Landing page moderna y atractiva para una empresa mayorista de botanas mexicanas, desarrollada con Next.js 16 y las últimas tecnologías web.
 
-![Next.js](https://img.shields.io/badge/Next.js-16.1.1-black?style=flat-square&logo=next.js)
-![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=flat-square&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwind-css)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF0055?style=flat-square&logo=framer)
+**Demo en vivo:** [botanas-landing.netlify.app](https://botanas-landing.netlify.app)
 
-## 🎯 Sobre el Proyecto
+## Sobre el Proyecto
 
 Esta landing page fue diseñada para **Blofis Botanas**, una empresa mexicana especializada en la venta mayorista de botanas y snacks. El sitio presenta productos, categorías, formatos de venta y toda la información necesaria para clientes potenciales.
 
-### ✨ Características Principales
+### Características Principales
 
-- 🎨 **Diseño moderno y atractivo** con gradientes y animaciones fluidas
-- 📱 **Totalmente responsivo** - Optimizado para móvil, tablet y desktop
-- ⚡ **Alto rendimiento** con Next.js App Router y optimización de imágenes
-- 🛒 **Carrito de compras** con estado global usando Zustand
-- 🎭 **Animaciones suaves** implementadas con Framer Motion
-- 🌮 **Temática mexicana** con colores vibrantes y diseño auténtico
+- **Diseño moderno y atractivo** con gradientes y animaciones fluidas
+- **Totalmente responsivo** - Optimizado para móvil, tablet y desktop
+- **Alto rendimiento** con Next.js App Router y optimización de imágenes
+- **Carrito de compras** con estado global usando Zustand
+- **Animaciones suaves** implementadas con Framer Motion
+- **Temática mexicana** con colores vibrantes y diseño auténtico
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/
@@ -46,7 +42,7 @@ src/
     └── cartStore.ts       # Store del carrito (Zustand)
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Tecnología | Versión | Descripción |
 |------------|---------|-------------|
@@ -57,7 +53,7 @@ src/
 | **Framer Motion** | 12.x | Animaciones declarativas |
 | **Zustand** | 5.x | Gestión de estado global |
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### Prerrequisitos
 
@@ -68,7 +64,7 @@ src/
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/botanas-landing.git
+git clone https://github.com/jaircastorena2/botanas-landing.git
 
 # Entrar al directorio
 cd botanas-landing
@@ -91,7 +87,7 @@ El sitio estará disponible en [http://localhost:3000](http://localhost:3000)
 | `npm start` | Inicia el servidor de producción |
 | `npm run lint` | Ejecuta el linter (ESLint) |
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Hero Section
 Sección principal con animación de productos flotantes y call-to-action atractivo.
@@ -105,17 +101,17 @@ Presentación visual de las diferentes categorías de botanas disponibles.
 ### Formatos de Venta
 Información sobre los diferentes formatos de venta mayorista.
 
-## 🎨 Decisiones de Diseño
+## Decisiones de Diseño
 
 - **Paleta de colores**: Tonos cálidos (naranja, rojo) que evocan la tradición mexicana
 - **Tipografía**: Inter para legibilidad moderna
 - **Animaciones**: Transiciones suaves que mejoran la UX sin ser intrusivas
 - **Responsive**: Mobile-first con breakpoints para tablet y desktop
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es parte de mi portafolio personal. Siéntete libre de usarlo como referencia o inspiración.
 
 ---
 
-Desarrollado con ❤️ por [Tu Nombre]
+Desarrollado por Jair Castorena
