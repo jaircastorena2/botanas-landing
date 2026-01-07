@@ -76,8 +76,6 @@ npm install
 npm run dev
 ```
 
-El sitio estará disponible en [http://localhost:3000](http://localhost:3000)
-
 ### Scripts Disponibles
 
 | Comando | Descripción |
