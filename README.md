@@ -2,7 +2,7 @@
 
 Landing page moderna y atractiva para una empresa mayorista de botanas mexicanas, desarrollada con Next.js 16 y las últimas tecnologías web.
 
-**Demo en vivo:** [botanas-landing.netlify.app](https://botanas-landing.netlify.app)
+**Demo en vivo:** [https://botanas-landing.netlify.app/](https://botanas-landing.netlify.app/)
 
 ## Sobre el Proyecto
 
