@@ -33,6 +33,11 @@ src/
 │   ├── SalesFormatsSection.tsx # Formatos de venta
 │   ├── IngredientsSection.tsx # Información de ingredientes
 │   ├── NutritionalTable.tsx # Tabla nutricional
+│   ├── TestimonialsSection.tsx # Testimonios de clientes
+│   ├── FAQSection.tsx     # Preguntas frecuentes
+│   ├── ContactSection.tsx # Formulario de contacto
+│   ├── NewsletterSection.tsx # Suscripción a newsletter
+│   ├── WhatsAppButton.tsx # Botón flotante de WhatsApp
 │   ├── CartDrawer.tsx     # Carrito de compras
 │   ├── ProductGrid.tsx    # Grid de productos
 │   └── Footer.tsx         # Pie de página
