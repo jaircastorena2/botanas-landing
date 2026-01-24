@@ -54,7 +54,7 @@ export const products: Product[] = [
         netContent: "50g",
         stock: 500,
         category: "maicitos",
-        flavors: ["Fuego 🔥", "Jalapeño 🌶️", "Queso 🧀", "Ranchero 🌽", "Sal 🧂", "Salsas 🥢", "Mix de Sabores 🎨"],
+        flavors: ["Fuego", "Jalapeño", "Queso", "Ranchero", "Sal", "Salsas", "Mix de Sabores"],
         features: ["Inflado al vapor", "Sin freír", "Sin gluten", "0g grasas trans", "Autorizado SEP"],
         packs: [
             { quantity: 3, label: "3 pz Prueba", price: 63 },
